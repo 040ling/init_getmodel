@@ -27,7 +27,7 @@ matrix = cv2.getPerspectiveTransform(pts1, pts2)
 result = cv2.warpPerspective(img, matrix, (h, w))
 result = np.rot90(result)
 result = cv2.flip(result, 0)
-cv2.imshow("Image", img)
+
 cv2.imshow("Perspective transformation", result)
 cv2.waitKey(0)
 
