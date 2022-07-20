@@ -82,9 +82,6 @@ def link_cam(save_path,num):
         cv2.imwrite("0.jpg",frame)
 
 
-
-
-
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     link_cam("out",0)

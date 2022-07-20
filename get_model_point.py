@@ -146,3 +146,4 @@ while(True):
         print("请输入1或0")
         print("如需采样请输入1,如已采样完毕请输入0")
         isUpdate = input("input = ")
+
